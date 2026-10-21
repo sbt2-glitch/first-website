@@ -1,0 +1,22 @@
+body{
+    background-color: #EE82EE;
+    color: #ffffff;
+}
+section{
+    padding: 40px 20px;
+}
+#home h1{
+    font-size: 40px;
+}
+#home p{
+  text-align: right ;
+   
+}
+#home img{
+    color:#800080;
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 8px solid #800080;
+}

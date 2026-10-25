@@ -1,39 +1,144 @@
-nav {
-  background-color: #800080;
-  padding: 15px;
-  display: flex;
-  justify-content: center;
-  gap: 30px; 
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
-  font-size: 18px;
-}
-
-nav a:hover {
-  color: #EE82EE;
-}
 body{
-    background-color: #EE82EE;
-    color: #ffffff;
+    font-family:Arial, sans-serif;
+    background-color: #f7f4fc;
+    line-height: 1.6;
+    color: #302b3b;
+    padding:0;
+    margin:0;
+}
+nav{ 
+    background-color: #302044;
+    padding: 18px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition:color 0.3s ease;
+}
+nav a:hover{
+    color: #d6b4fc;
 }
 section{
-    padding: 40px 20px;
+    padding: 70px 10%;
+    scroll-margin-top:65px;
+}
+#home{
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(135deg, #e9d5ff, #f7f4fc);
+
 }
 #home h1{
-    font-size: 40px;
-}
-#home p{
-  text-align: right ;
-   
+    color:#a667f2;
+    margin-bottom: 20px;
+    font-size: 48px;
+    font-weight: bold;
 }
 #home img{
-    color:#800080;
-    width: 160px;
-    height: 160px;
-    object-fit: cover;
     border-radius: 50%;
-    border: 8px solid #800080;
+    width: 195px;
+    height: 195px;
+    object-fit: cover;
+    border:5px solid white;
+    margin-bottom: 20px;
+}
+#home p{
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+#about{
+     max-width: 1100px;
+    margin: auto;
+}
+#about p{
+
+    font-size: 18px;
+    text-align: justify;
+    line-height: normal;
+}
+section h2{
+    color:#542c7a ; font-size: 32px;
+    text-align:center;
+    margin-bottom: 30px;
+}
+#journey{
+    background-color: #eee6f7;}
+    .journey {background-color: rgba(255, 255, 255);
+    padding: 25px;
+    margin: 18px auto;
+    max-width: 700px;
+    border-radius: 12px;
+    border-left: 5px solid #8854b8;
+    box-shadow: 0 4px 12px rgba(48, 32, 68, 0.08);
+    transition: transform 0.3s ease, box shadow 0.3s ease;
+} 
+.journey:hover{ 
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(48, 32, 68, 0.15);
+
+}
+.journey h3{
+    color: #70409a;
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+#hobbies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#hobbies h2{width: 100%;}
+.hobbies {
+    background-color:white;
+    padding:25px;
+    margin: 12px 0;
+    width:100%;
+    max-width: 700px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px rgba(48,32, 68,0.15);
+    transition:transform 0.3s ease;
+}
+.hobbies:hover{transform: translateX(5px) translateY(-5px);}
+.hobbies h3{
+    color:#70409a;
+    font-size:22px;
+    margin-bottom:8px;
+}
+
+footer{
+    background-color:#302044;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+footer p{margin:5px 0;}
+@media(max-width:600px){nav{
+    gap:12px;
+    padding:15px 8px;
+    flex-wrap:wrap;
+}}
+nav a{font-size:14px;}
+section{padding:45px 6%;}
+#home h1{font-size:36px;}
+#home img{
+    width:150px;
+    height:150px;
+}
+section h2{font-size:27px;}
+#about p{
+    font-size:15px;
+    text-align:left;
 }

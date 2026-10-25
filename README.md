@@ -11,6 +11,8 @@ My Hobbies: The activities and interests I enjoy in my free time.
 Built With:
 HTML
 CSS
+how it's made:
+It used many tags in html. I used section tag to make the work more easier. Icon at the tab is add too. I also used many lines of css to polish it. Some features added so that it can be usable and stays with the normal structure in different devices. It has hover effects too. They are added to make it more attractive.
 
 Live Demo:
 

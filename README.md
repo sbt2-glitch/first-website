@@ -14,7 +14,7 @@ CSS
 
 Live Demo:
 
-Visit my website:sbt2-glitch.github.io/first-website/
+Visit my website:  sbt2-glitch.github.io/first-website/
 
 Purpose
 I created this website to practice my web development skills and express a little bit of who I am through a simple, personal design.
